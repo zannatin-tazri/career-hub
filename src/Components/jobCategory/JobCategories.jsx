@@ -12,7 +12,11 @@ const JobCategories = () => {
     },[])
     return (
         <div className='job-category-container'>
+            <h2 className='category-title'>Job Category List</h2>
+                <small className='category-description'>Explore thousands of job opportunities with all
+                 the information you need. Its your future</small>
             <div className='job-category'>
+                
                 {
                     categories.map(category=> <JobCategory
                     key={category.id}
