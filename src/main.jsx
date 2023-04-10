@@ -10,6 +10,7 @@ import Home from './Components/Layout/Home';
 import Statistics from './Components/Statistics/Statistics';
 import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header';
+import QuestionAnswer from './Components/Question-Answer/QuestionAnswer';
 
 const router=createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router=createBrowserRouter([
   {
     path:'/statistics',
     element:<Statistics></Statistics>
+  },
+  {
+    path:'/blog',
+    element:<QuestionAnswer></QuestionAnswer>
   }
 ])
 

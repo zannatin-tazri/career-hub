@@ -45,7 +45,7 @@ const Statistics = () => {
     ];
     return (
         <div className='dashboard'>
-            
+            <h2>AreaChart of My Assignment Marks</h2>
            <AreaChart
            width={1000}
            height={300}

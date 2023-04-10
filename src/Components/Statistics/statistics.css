@@ -1,3 +1,7 @@
 .dashboard{
     padding: 100px;
 }
+.dashboard h2{
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
