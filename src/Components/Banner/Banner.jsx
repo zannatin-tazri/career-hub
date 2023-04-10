@@ -1,9 +1,12 @@
 import React from 'react';
 import './Banner.css';
+import JobCategories from '../jobCategory/JobCategories';
+import FeaturedJobs from '../featureJobs/FeaturedJobs';
 
 const Banner = () => {
     return (
-        <div className='banner'>
+       <div>
+         <div className='banner'>
             <div className='banner-text'>
                <h1>One Step <br></br> Closer To Your <br></br>
                 <span>Dream Job</span> </h1>
@@ -15,7 +18,12 @@ const Banner = () => {
             <div className='banner-img'>
                  <img src="/src/images/hardy.png" alt="" />
             </div>
+
+            
         </div>
+        <JobCategories></JobCategories>
+            <FeaturedJobs></FeaturedJobs>
+       </div>
     );
 };
 
