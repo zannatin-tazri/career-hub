@@ -1,0 +1,32 @@
+
+.featured-job{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px 80px;
+    gap:0px 80px;
+    height: 900px;
+}
+
+.job-featured-container h2{
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-bottom: 0;
+    color: #1A1919;
+}
+
+.sub-title{
+    margin-top: 0;
+    margin-left: 300px;
+    color: #757575;
+}
+
+.featured-job h4{
+    margin-bottom: 0;
+}
+.see-all{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
