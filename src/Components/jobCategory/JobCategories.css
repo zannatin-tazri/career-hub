@@ -1,0 +1,13 @@
+.job-category{
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.job-category h5{
+    margin-bottom: 0;
+}
+.job-category small{
+    color: #A3A3A3;
+
+}
