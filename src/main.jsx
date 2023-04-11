@@ -11,6 +11,8 @@ import Statistics from './Components/Statistics/Statistics';
 import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header';
 import QuestionAnswer from './Components/Question-Answer/QuestionAnswer';
+import SeeDetails from './Components/seeDetails/SeeDetails';
+import ViewDetail from './Components/ViewDetail/ViewDetail';
 
 const router=createBrowserRouter([
   {
@@ -24,6 +26,16 @@ const router=createBrowserRouter([
   {
     path:'/blog',
     element:<QuestionAnswer></QuestionAnswer>
+  },
+  {
+     path:'viewDetail/:detailId',
+     element:<ViewDetail></ViewDetail>,
+     loader:({params})=>console.log(params.detailId)
+  },
+  {
+    path:'/viewDetails',
+    element: <SeeDetails></SeeDetails>,
+    loader:(params)=>fetch('featuredJob.json')
   }
 ])
 

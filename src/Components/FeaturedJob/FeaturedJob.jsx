@@ -1,9 +1,10 @@
 import React from 'react';
 import './FeaturedJob.css'
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = (props) => {
-    console.log(props)
-    const {company,logo,title,location,salary,employment_type,remoteOrOnSite}=props.featuredJob;
+    // console.log(props)
+    const {company,logo,title,location,salary,employment_type,remoteOrOnSite,id}=props.featuredJob;
     return (
         <div className='job-info'>
             <img src={logo} alt="" />
@@ -17,7 +18,7 @@ const FeaturedJob = (props) => {
                 <small>{location}</small> 
                 <small className='salary'>Salary : {salary}</small>
             </div>
-            <button className='btn-details'>View Details</button>
+            <button className='btn-details'><Link to="/viewDetails">View Details</Link> </button>
         </div>
     );
 };
