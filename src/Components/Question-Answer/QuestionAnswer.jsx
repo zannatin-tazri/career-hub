@@ -1,8 +1,9 @@
 import React from 'react';
+import './Question-answer.css'
 
 const QuestionAnswer = () => {
     return (
-        <div>
+        <div className='QnA'>
             <h2>When should you use context api?</h2>
             <p>Answer : Context is primarily used when some data needs to be accessible by many 
                 components at different nesting levels. <br></br>

@@ -13,6 +13,7 @@ import Header from './Components/Header/Header';
 import QuestionAnswer from './Components/Question-Answer/QuestionAnswer';
 import SeeDetails from './Components/seeDetails/SeeDetails';
 import ViewDetail from './Components/ViewDetail/ViewDetail';
+import Error404page from './Components/404page/error404page';
 
 const router=createBrowserRouter([
 
@@ -35,12 +36,16 @@ const router=createBrowserRouter([
   {
      path:'/viewDetail/:detailId',
      element:<ViewDetail></ViewDetail>,
-     loader:({params})=>fetch('featuredJob.json')
+     loader:({params})=>fetch('/featuredJob.json')
   },
   {
     path:'/viewDetails',
     element: <SeeDetails></SeeDetails>,
     loader:()=>fetch('featuredJob.json')
+  },
+  {
+    path:'*',
+    element:<Error404page></Error404page>
   }
     ]
    }
