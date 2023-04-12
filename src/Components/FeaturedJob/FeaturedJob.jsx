@@ -18,7 +18,7 @@ const FeaturedJob = (props) => {
                 <small>{location}</small> 
                 <small className='salary'>Salary : {salary}</small>
             </div>
-            <button className='btn-details'><Link to="/viewDetails">View Details</Link> </button>
+            <button className='btn-details'><Link to={`/viewDetail/${id}`}>View Details</Link> </button>
         </div>
     );
 };

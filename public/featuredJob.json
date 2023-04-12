@@ -8,12 +8,12 @@
       "location": "New York City, NY",
       "employment_type": "Full-time",
       "salary": "$100,000 - $120,000",
-      "description": "Example Company 1 is seeking a highly motivated software developer to join our team...",
-      "responsibilities": "Develop and maintain software applications...",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "education": "Bachelor's degree in Computer Science or related field",
       "experience": "3+ years of professional software development experience",
       "phone": "555-555-5555",
-      "email": "jobs@example.com"
+      "email": "info@gmail.com"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "location": "Los Angeles, CA",
       "employment_type": "Part-time",
       "salary": "$60,000 - $80,000",
-      "description": "Example Company 2 is seeking a highly motivated marketing manager to join our team...",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "responsibilities": "Develop and execute marketing campaigns...",
       "education": "Bachelor's degree in Marketing or related field",
       "experience": "5+ years of professional marketing experience",
@@ -40,12 +40,12 @@
       "location": "San Francisco, CA",
       "employment_type": "Full-time",
       "salary": "$80,000 - $100,000",
-      "description": "Example Company 3 is seeking a highly motivated graphic designer to join our team...",
-      "responsibilities": "Design and create graphics for various applications...",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "education": "Bachelor's degree in Graphic Design or related field",
-      "experience": "3+ years of professional graphic design experience",
+      "experience": "2+ years of professional graphic design experience",
       "phone": "555-555-5555",
-      "email": "jobs@example.com"
+      "email": "info@gmail.com"
     },
     {
       "id": 4,
@@ -56,10 +56,10 @@
       "location": "Chicago, IL",
       "employment_type": "Full-time",
       "salary": "$60,000 - $80,000",
-      "description": "Example Company 4 is seeking a highly motivated sales representative to join our team...",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "responsibilities": "Generate leads and close sales...",
       "education": "Bachelor's degree in Business or related field",
-      "experience": "2+ years of professional sales experience",
+      "experience": "5+ years of professional sales experience",
       "phone": "555-555-5555",
       "email": "jobs@example.com"
     },
@@ -72,12 +72,12 @@
       "location": "Seattle, WA",
       "employment_type": "Full-time",
       "salary": "$70,000 - $90,000",
-      "description": "Example Company 1 is seeking a highly motivated software developer to join our team...",
-      "responsibilities": "Develop and maintain software applications...",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "education": "Bachelor's degree in Computer Science or related field",
       "experience": "3+ years of professional software development experience",
       "phone": "555-555-5555",
-      "email": "jobs@example.com"
+      "email": "info@gmail.com"
     },
     {
         "id": 6,
@@ -88,12 +88,12 @@
         "location": "New York City, NY",
         "employment_type": "Full-time",
         "salary": "$100,000 - $120,000",
-        "description": "Example Company 1 is seeking a highly motivated software developer to join our team...",
-        "responsibilities": "Develop and maintain software applications...",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor's degree in Computer Science or related field",
         "experience": "3+ years of professional software development experience",
         "phone": "555-555-5555",
-        "email": "jobs@example.com"
+        "email": "info@gmail.com"
       }
     ]
   

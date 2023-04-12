@@ -28,14 +28,14 @@ const router=createBrowserRouter([
     element:<QuestionAnswer></QuestionAnswer>
   },
   {
-     path:'viewDetail/:detailId',
+     path:'/viewDetail/:detailId',
      element:<ViewDetail></ViewDetail>,
-     loader:({params})=>console.log(params.detailId)
+     loader:({params})=>fetch('featuredJob.json')
   },
   {
     path:'/viewDetails',
     element: <SeeDetails></SeeDetails>,
-    loader:(params)=>fetch('featuredJob.json')
+    loader:()=>fetch('featuredJob.json')
   }
 ])
 

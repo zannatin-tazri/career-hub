@@ -5,7 +5,7 @@ import ViewDetail from '../ViewDetail/ViewDetail';
 const SeeDetails = () => {
     
     const details=useLoaderData();
-    // console.log(details);
+    console.log(details);
     return (
         <div>
             <h1>Hello : {details.length}</h1>
