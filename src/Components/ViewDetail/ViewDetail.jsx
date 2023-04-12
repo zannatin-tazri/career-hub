@@ -15,9 +15,7 @@ const ViewDetail = ({detail}) => {
         setJobdetail(job);
     },[detailData,detailId]);
 
-     if(!jobDetail){
-        return <div>Loading..</div>
-     }
+    
     // const{description,education,email,experience,phone,responsibilities,title,salary,location}=detail;
     
     return (
@@ -46,6 +44,7 @@ const ViewDetail = ({detail}) => {
            </div>
            
         </div>
+        
     );
 };
 

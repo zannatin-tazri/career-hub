@@ -15,9 +15,14 @@ import SeeDetails from './Components/seeDetails/SeeDetails';
 import ViewDetail from './Components/ViewDetail/ViewDetail';
 
 const router=createBrowserRouter([
+
+   {
+    path:'/',
+    element:<Home></Home>,
+    children:[
   {
     path:'/',
-    element:<App></App>
+    element:<Banner></Banner>
   },
   {
     path:'/statistics',
@@ -37,6 +42,31 @@ const router=createBrowserRouter([
     element: <SeeDetails></SeeDetails>,
     loader:()=>fetch('featuredJob.json')
   }
+    ]
+   }
+
+  // {
+  //   path:'/',
+  //   element:<App></App>
+  // },
+  // {
+  //   path:'/statistics',
+  //   element:<Statistics></Statistics>
+  // },
+  // {
+  //   path:'/blog',
+  //   element:<QuestionAnswer></QuestionAnswer>
+  // },
+  // {
+  //    path:'/viewDetail/:detailId',
+  //    element:<ViewDetail></ViewDetail>,
+  //    loader:({params})=>fetch('featuredJob.json')
+  // },
+  // {
+  //   path:'/viewDetails',
+  //   element: <SeeDetails></SeeDetails>,
+  //   loader:()=>fetch('featuredJob.json')
+  // }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
