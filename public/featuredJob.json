@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "logo": "/src/images/Logo/google-1-1 1-1.png",
+      "logo": "https://i.ibb.co/0BhWkWk/google-1-1-1.png",
       "title": "Software Developer",
       "company": "Google LLc",
       "remoteOrOnSite": "Remote",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "logo": "/src/images/Logo/netflix-4 1.png",
+      "logo": "https://i.ibb.co/9v0fMTP/netflix-4-1.png",
       "title": "Marketing Manager",
       "company": "Netflix",
       "remoteOrOnSite":"On-site",
@@ -33,7 +33,7 @@
     },
     {
       "id": 3,
-      "logo": "/src/images/Logo/tesla-9 1.png",
+      "logo": "https://i.ibb.co/4P3fR16/tesla-9-1.png",
       "title": "Graphic Designer",
       "company": "Tesla",
       "remoteOrOnSite": "Remote",
@@ -49,7 +49,7 @@
     },
     {
       "id": 4,
-      "logo": "/src/images/Logo/google-1-1 1.png",
+      "logo": "https://i.ibb.co/0BhWkWk/google-1-1-1.png",
       "title": "Sales Representative",
       "company": "Google LLc",
       "remoteOrOnSite": "On-site",
@@ -65,7 +65,7 @@
     },
     {
       "id": 5,
-      "logo": "/src/images/Logo/netflix-4 1.png",
+      "logo": "https://i.ibb.co/9v0fMTP/netflix-4-1.png",
       "title": "Data Analyst",
       "company": "Netflix",
       "remoteOrOnSite": "Remote",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "logo": "/src/images/Logo/tesla-9 1.png",
+        "logo": "https://i.ibb.co/4P3fR16/tesla-9-1.png",
         "title": "Software Developer",
         "company": "Tesla",
         "remoteOrOnSite":"Remote",

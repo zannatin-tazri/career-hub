@@ -32,13 +32,13 @@ const ViewDetail = ({detail}) => {
            <div>
             <h3><b>Job Details</b></h3>
             <hr />
-            <p> <b><img src="/src/images/Icons/Frame.png" alt="" />  Salary : </b>{jobDetail.salary}</p>
-            <p><b><img src="/src/images/Icons/Frame-1.png" alt="" />  Job title : </b>{jobDetail.title}</p>
+            <p> <b><img src="https://i.ibb.co/KrDDP26/Frame.png" alt="" />  Salary : </b>{jobDetail.salary}</p>
+            <p><b><img src="https://i.ibb.co/HqW1k17/Frame-1.png" alt="" />  Job title : </b>{jobDetail.title}</p>
             <p><b>Contact Information</b></p>
             <hr />
-            <p><b><img src="/src/images/Icons/Frame-2.png" alt="" /> Phone :</b> {jobDetail.phone}</p>
-            <p><b><img src="/src/images/Icons/Frame-3.png" alt="" />  Email : </b>{jobDetail.email}</p>
-            <p><b> <img src="/src/images/Icons/Frame-4.png" alt="" />  Address : </b>{jobDetail.location}</p>
+            <p><b><img src="https://i.ibb.co/qxw5cgs/Frame-2.png" alt="" /> Phone :</b> {jobDetail.phone}</p>
+            <p><b><img src="https://i.ibb.co/CQWKGhz/Frame-3.png" alt="" />  Email : </b>{jobDetail.email}</p>
+            <p><b> <img src="https://i.ibb.co/gJtWyhj/Frame-4.png" alt="" />  Address : </b>{jobDetail.location}</p>
             <button className='apply-btn'>Apply Now</button>
            </div>
            </div>

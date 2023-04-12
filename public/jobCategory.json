@@ -2,25 +2,25 @@
       {
         "id": 1,
         "jobCategory": "Account & Finance",
-        "logo": "/src/images/Icons/accounts 1.png",
+        "logo": "https://i.ibb.co/NL9dCVQ/accounts-1.png",
         "availableJobs": 100
       },
       {
         "id": 2,
         "jobCategory": "Creative Design",
-        "logo": "/src/images/Icons/business 1.png",
+        "logo": "https://i.ibb.co/nbFthjq/business-1.png",
         "availableJobs": 500
       },
       {
         "id": 3,
         "jobCategory": "Engineering Job",
-        "logo": "/src/images/Icons/chip 1.png",
+        "logo": "https://i.ibb.co/Lp6fPRg/chip-1.png",
         "availableJobs": 300
       },
       {
         "id": 4,
         "jobCategory": "Marketing & Sales",
-        "logo": "/src/images/Icons/social-media 1.png",
+        "logo": "https://i.ibb.co/Y834z2b/social-media-1.png",
         "availableJobs": 700
         
       }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './JobCategories.css'
 import JobCategory from '../JobCatery/JobCategory';
 
+
 const JobCategories = () => {
     const [categories, setCategories]=useState([]);
 

@@ -1,4 +1,5 @@
 import React from 'react';
+// import icons from '../../Icons'
 
 const JobCategory = (props) => {
     const {jobCategory,availableJobs,logo}=props.category;

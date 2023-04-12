@@ -2,6 +2,7 @@ import React from 'react';
 import './Banner.css';
 import JobCategories from '../jobCategory/JobCategories';
 import FeaturedJobs from '../featureJobs/FeaturedJobs';
+import hardy from '../../images/hardy.png'
 
 const Banner = () => {
     return (
@@ -16,7 +17,7 @@ const Banner = () => {
             </div>
 
             <div className='banner-img'>
-                 <img src="/src/images/hardy.png" alt="" />
+                 <img src={hardy} alt="" />
             </div>
 
             
